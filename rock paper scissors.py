@@ -22,7 +22,7 @@ while uc != 'exit':
         print(f'user {uc} vs computer {cc}\n'
               f'Tie!! \nuser {u_points} : {c_points} computer\n')
         continue
-    elif uc == 'rock' and cc == 'scissors' or uc == 'rock' and cc == 'scissors' or uc == 'scissors' and cc == 'paper':
+    elif uc == 'rock' and cc == 'scissors' or uc == 'paper' and cc == 'rock' or uc == 'scissors' and cc == 'paper':
         win = 'user'
         u_points += 1
     else:
